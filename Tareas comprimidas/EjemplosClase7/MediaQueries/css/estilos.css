@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Contenedor para flexboxes */
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Crear 4 columnas iguales */
+.columna {
+    flex: 25%;
+    padding: 20px;
+}
+
+/* Setea el background del cuerpo */
+body {
+    background-color: tan;
+}
+
+/* En pantallas que sean iguales o menores a 992px, setea el background en azul */
+@media screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+
+    .columna {
+        flex: 50%;
+    }
+}
+
+/* En pantallas que sean iguales o menores a 600px, setea el background a oliva */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+        color: mediumslateblue;
+    }
+
+    .fila {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,37 @@
+.caja {
+    color: whitesmoke;
+    text-transform: uppercase;
+    width: 120px;
+    height: 120px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    background: chocolate;
+}
+
+#uno {
+    position: fixed;
+    top: 80px;
+    left: calc(100vw - 10rem);
+}
+
+#dos {
+    position: sticky;
+    /* bottom: 20px; */
+    top: 20px;
+    left: 20px;
+}
+
+#tres{
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+
+#cuatro {
+    position: absolute;
+    top: 20rem;
+    left: 30rem;
+}

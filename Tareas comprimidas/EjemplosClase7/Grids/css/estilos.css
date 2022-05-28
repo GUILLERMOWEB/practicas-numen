@@ -1,0 +1,38 @@
+body *+*{
+    margin:0;
+    padding:0;
+}
+
+.contenedor{
+    border: 3px solid #000;
+    /*declaro las propiedades grid*/
+    display: grid;
+    /* grid-template-columns: 200px 300px 400px; */
+    /* grid-template-columns: 20% 30% 50%; */
+    /* grid-template-columns: 25% 25% 50%; */
+    /* fr: unidad de medida fraccionaria */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 2fr 3fr; */
+    /* grid-template-columns: 1fr 1fr 100px; */
+    /* grid-template-columns: 10% 150px 2fr 1fr; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(4, 150px);
+
+    /* grid-template-rows: 200px 300px;  */
+    /*si no declaro tengo una fila implícita*/
+    grid-template-rows: 200px 300px 100px;
+
+    /*separaciones en grid: */
+    /* grid-row-gap: 2%; */
+    /* grid-column-gap: 2rem; */
+    /* grid-gap: 50px 20px; */
+    /* gap: 50px; */
+    /* atajo para gap */
+}
+
+.item{
+    background-color: chartreuse;
+    border: 2px solid yellow;
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+.imagen-normalizada .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 100vh;
+}

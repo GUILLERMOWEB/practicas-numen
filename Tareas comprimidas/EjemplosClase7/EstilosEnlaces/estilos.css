@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Prompt, sans-serif;
+}
+
+h1 {
+    color: #2f4f4f;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+h2{
+    margin: 15px 0;
+}
+
+.nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    height: 10vh;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: orange;
+}
+
+.footer {
+    color: #666;
+    background-color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 500px;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a.destacado {
+    background-color: orange;
+}
+
+/*ENLACE NORMAL NO VISITADO*/
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+/*ENLACE YA VISITADO*/
+a:visited {
+    color: darkmagenta;
+}
+
+/*HOVER ES CUANDO PASAN EL CURSOR POR ARRIBA
+DEL ELEMENTO*/
+a:hover {
+    text-decoration: underline;
+}
+
+/*ACTIVE ES CUANDO APRIETAN EL LINK ANTES
+DE LEVANTAR EL DEDO DEL MOUSE*/
+a:active {
+    color: red;
+}

@@ -1,0 +1,47 @@
+.imagen-chica{
+    width: 70px;
+    border-radius: 10%;
+    border: 5px solid;
+    color: blue;
+}
+.posicion{
+    position: relative; left: 1000px;
+}
+/* Estoy utilizando el idnumerador, tambien usé List style none, que sirve para sacar los puntos que generan las listas desordenadas */
+ul li{
+    display: inline-block;
+    border: 5px solid;
+    border-radius: 30px;
+    border-color: blue; size: 10px;
+    text-align: center;
+    background-color: aqua;
+
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 33px;
+    font-style: italic;
+}
+h2{
+    text-align: left;
+    color: blue;
+    font-size: 25px;
+    font-style: italic;
+}
+.fondo-ocre{
+    background-color: rgb(221, 179, 115);
+}
+/* Aca estoy importando la fuente pacific desde google font */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.fuente {
+    color: black;
+    text-align: justify;
+    font-family: 'Pacifico', cursive; size: 20px
+}
+#electronica{
+    color: black;
+    text-align: justify;
+    font-family: Arial;
+}

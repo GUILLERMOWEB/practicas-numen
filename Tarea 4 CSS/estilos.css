@@ -1,0 +1,100 @@
+/* Aca estoy importando la fuente pacific desde google font */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Roboto:wght@300&display=swap');
+
+/* Aca estoy colocando la fuente desde google font */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cardo&family=Open+Sans:wght@300&family=Pacifico&family=Roboto:wght@300&display=swap');
+
+.imagen-inicio{
+    margin-top: 40px;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+}
+.posicion-nav{
+        background-color: rgb(146, 146, 195);
+        margin: 0;
+        height: 40px;
+}
+.inicio{
+    width: 60px;
+}
+.nosotros{
+    width: 250px;
+}
+.contacto{
+    width: 60px;
+}
+#color-palabra-inicio{
+    color:black;
+}
+.innovacion{
+    margin: 40px;
+    font-size: 100px;
+    position: absolute; top: 100px; 
+    width: 100px;
+    color: rgb(93, 17, 233);
+}
+
+/* Aca estoy usando la misma configuración de los botones de la barra de navegacacion y para el footer, es decir, los ul li de mi pagina, van a ser iguales */
+ul li{
+    display:inline-block;
+    font-size: 30px; color: rgb(98, 98, 245);
+    text-align: center;
+}
+/* Aca le estoy dando al body un color degrade */
+body{
+    background-image: linear-gradient(rgb(219, 191, 191), rgb(70, 190, 182));
+    margin: 0%;
+}
+/* En nav, dejho fija la barra de navegacion y priorizada la vista */
+nav{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.fondo-2{
+    background-image: linear-gradient(rgb(233, 221, 223),rgb(12, 12, 101),rgb(150, 137, 150))
+}
+
+.fuente-1 {
+    margin: 40px;
+    color: black;
+    text-align: justify;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;  
+}
+h1{
+    margin: 40px;
+    text-align: center;
+    color: blue;
+    font-size: 35px;
+    font-style:normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    margin: 40px;
+    text-align: left;
+    color: blue;
+    font-size: 35px;
+    font-style: italic;
+}
+
+#electronica{
+    margin: 40px;
+    color: black;
+    text-align: justify;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Cardo', serif;
+    font-size: 25px;
+}
+.instagram{
+    width: 60px;
+}
+.facebook{
+    width: 500px;
+}
+.twiter{
+    width: 10px;
+}
